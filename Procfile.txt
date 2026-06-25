@@ -1,0 +1,5 @@
+web: gunicorn --bind :$PORT app:app
+
+
+
+# gunicorn helps in to deploy our flask application

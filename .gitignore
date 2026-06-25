@@ -1,0 +1,18 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Python caching
+__pycache__/
+*.pyc
+
+# IDE configs
+.vscode/
+.idea/
+
+# Large ML Weights & Datasets (Ignore local training data)
+NST_Code/content_data/
+NST_Code/style_data/
+*.pth
+experiment/
